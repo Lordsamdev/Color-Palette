@@ -56,7 +56,7 @@ buttonTwo.addEventListener("click", function(){
 })
 
 let buttonThree = document.getElementById("btn-3")
-buttonOne.addEventListener("click", function(){
+buttonThree.addEventListener("click", function(){
     navigator.clipboard.writeText(thirdColor.value)
     alert(`Color: ${thirdColor.value} copied to clipboard!`)
 })
